@@ -1,0 +1,14 @@
+{
+  "id": "hero_top_six_grid",
+  "name": "Top Hero + Five Grid",
+  "category": "hero",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "hero", "role": "hero", "x": 40, "y": 40, "width": 1000, "height": 600 },
+    { "id": "support_top_left", "role": "supporting", "x": 40, "y": 690, "width": 310, "height": 260 },
+    { "id": "support_top_center", "role": "supporting", "x": 385, "y": 690, "width": 310, "height": 260 },
+    { "id": "support_top_right", "role": "supporting", "x": 730, "y": 690, "width": 310, "height": 260 },
+    { "id": "support_bottom_left", "role": "supporting", "x": 210, "y": 1000, "width": 310, "height": 310 },
+    { "id": "support_bottom_right", "role": "supporting", "x": 560, "y": 1000, "width": 310, "height": 310 }
+  ]
+}

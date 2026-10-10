@@ -1,0 +1,14 @@
+{
+  "id": "centerpiece_six",
+  "name": "Centerpiece Six",
+  "category": "centerpiece",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 45, "y": 55, "width": 400, "height": 300 },
+    { "id": "top_right", "role": "supporting", "x": 635, "y": 55, "width": 400, "height": 300 },
+    { "id": "middle_left", "role": "supporting", "x": 45, "y": 440, "width": 300, "height": 410 },
+    { "id": "middle_right", "role": "supporting", "x": 735, "y": 440, "width": 300, "height": 410 },
+    { "id": "bottom", "role": "supporting", "x": 340, "y": 995, "width": 400, "height": 300 },
+    { "id": "center", "role": "hero", "x": 350, "y": 405, "width": 380, "height": 520 }
+  ]
+}

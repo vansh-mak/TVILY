@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>TVILY — Your photos, in print</title>
+  <style>
+    :root { color-scheme: light; --ink: #18241f; --muted: #68716b; --paper: #f4f0e8; --card: #fffdf8; --line: #ddd8cd; --accent: #bb4d32; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(1080px, calc(100% - 40px)); margin: 0 auto; padding: 28px 0 64px; }
+    header { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 8px 0 22px; }
+    .wordmark { font-size: 1.15rem; font-weight: 850; letter-spacing: .2em; }
+    .edition { color: var(--muted); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+    .intro { padding: clamp(36px, 7vw, 76px) 0 34px; max-width: 690px; }
+    .eyebrow { color: var(--accent); font-weight: 750; font-size: .76rem; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 12px 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.8rem, 7vw, 5.4rem); font-weight: 500; letter-spacing: -.055em; line-height: .98; }
+    .intro p { max-width: 520px; color: var(--muted); font-size: 1.05rem; line-height: 1.65; }
+    .workspace { display: grid; grid-template-columns: minmax(280px, .8fr) minmax(320px, 1fr); gap: 22px; align-items: start; }
+    .panel { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: clamp(20px, 4vw, 32px); }
+    h2 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 500; }
+    .hint { margin: 0 0 22px; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+    .drop { display: grid; min-height: 168px; place-items: center; padding: 20px; border: 1px dashed #aaa396; border-radius: 6px; text-align: center; background: #faf8f2; cursor: pointer; }
+    .drop:hover, .drop:focus-within { border-color: var(--accent); }
+    .drop strong { display: block; margin-bottom: 6px; }
+    .drop span { color: var(--muted); font-size: .84rem; }
+    input[type=file] { display: block; width: 100%; margin-top: 14px; color: var(--muted); font-size: .85rem; }
+    select { display: block; width: 100%; min-height: 48px; margin: 10px 0 18px; padding: 0 12px; border: 1px solid var(--line); border-radius: 4px; background: white; color: var(--ink); font: inherit; }
+    textarea { display: block; width: 100%; min-height: 112px; margin: 10px 0 8px; padding: 12px; border: 1px solid var(--line); border-radius: 4px; background: white; color: var(--ink); font: inherit; line-height: 1.5; resize: vertical; }
+    label[for="layout"] { font-size: .85rem; font-weight: 700; }
+    .selection { min-height: 24px; margin: 14px 0 4px; color: var(--muted); font-size: .85rem; }
+    button, .download { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; padding: 0 20px; border: 0; border-radius: 4px; background: var(--ink); color: white; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+    button { width: 100%; margin-top: 12px; }
+    button:hover, .download:hover { background: #304139; }
+    button:disabled { opacity: .55; cursor: wait; }
+    .status { min-height: 24px; margin: 14px 0 0; color: var(--muted); font-size: .9rem; }
+    .status.error { color: #a12f23; }
+    .preview { display: grid; min-height: 400px; place-items: center; overflow: hidden; border: 1px solid var(--line); background: #e9e4da; }
+    .preview.empty { padding: 28px; color: var(--muted); text-align: center; }
+    .preview img { display: block; width: 100%; height: auto; }
+    input[type=number], select { display: block; width: 100%; min-height: 48px; margin: 10px 0 18px; padding: 0 12px; border: 1px solid var(--line); border-radius: 4px; background: white; color: var(--ink); font: inherit; }
+    .preview iframe { display: block; width: 100%; height: 680px; border: 0; background: white; }
+    .result-bar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 18px; }
+    .result-bar p { margin: 0; color: var(--muted); font-size: .88rem; }
+    .download[hidden] { display: none; }
+    footer { margin-top: 28px; color: var(--muted); font-size: .8rem; }
+    @media (max-width: 760px) { main { width: min(100% - 28px, 560px); } .workspace { grid-template-columns: 1fr; } .preview { min-height: 250px; } .preview iframe { height: 560px; } .edition { font-size: .68rem; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><div class="wordmark">TVILY</div><div class="edition">A little more editorial</div></header>
+    <section class="intro">
+      <div class="eyebrow">Your photos, thoughtfully arranged</div>
+      <h1>Make a page<br>worth keeping.</h1>
+      <p>Tell TVILY about your trip, add your photographs, and let it plan an editorial magazine. Preview it here, then download the PDF.</p>
+    </section>
+    <section class="workspace" aria-label="Magazine page maker">
+      <div class="panel">
+        <h2>Build your magazine</h2>
+        <p class="hint">Describe the trip and choose optional page and photo targets. TVILY will plan page layouts from your photos.</p>
+        <form id="create-form">
+          <label for="trip-context">Trip context</label>
+          <textarea id="trip-context" name="trip_context" maxlength="3000" placeholder="Tell us where you went, what mattered, and what kind of magazine you want." required></textarea>
+          <p class="hint">TVILY uses this as the visual direction for generated page backgrounds. Layouts are selected automatically to fit your photos.</p>
+          <label for="page-count">Number of pages (optional)</label>
+          <input id="page-count" name="page_count" type="number" min="1" max="20" placeholder="Let TVILY decide">
+          <label for="photos-per-page">Target photos per page (optional)</label>
+          <select id="photos-per-page" name="photos_per_page">
+            <option value="">Let TVILY decide</option><option value="2">2 photos</option><option value="3">3 photos</option><option value="4">4 photos</option><option value="5">5 photos</option><option value="6">6 photos</option>
+          </select>
+          <label class="drop" for="photos"><div><strong>Choose your photos</strong><span>Upload 2–20 photos</span><input id="photos" name="photos" type="file" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" multiple required></div></label>
+          <p id="selection" class="selection" aria-live="polite">No photos selected</p>
+          <button id="generate" type="submit">Create my magazine</button>
+          <p id="status" class="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Your PDF</h2>
+        <p class="hint">Your PDF preview and download will appear after the layouts and page backgrounds are ready.</p>
+        <div id="preview" class="preview empty"><span>Your magazine PDF will appear here.</span></div>
+        <div class="result-bar"><p id="result-note">TVILY plans one layout for each page · PDF</p><a id="download" class="download" hidden download="tvily-magazine.pdf">Download PDF</a></div>
+      </div>
+    </section>
+    <footer>TVILY · Made for the photographs you want to remember.</footer>
+  </main>
+  <script>
+    const form = document.querySelector('#create-form');
+    const input = document.querySelector('#photos');
+    const contextInput = document.querySelector('#trip-context');
+    const pageCountInput = document.querySelector('#page-count');
+    const photosPerPageInput = document.querySelector('#photos-per-page');
+    const button = document.querySelector('#generate');
+    const selection = document.querySelector('#selection');
+    const status = document.querySelector('#status');
+    const preview = document.querySelector('#preview');
+    const download = document.querySelector('#download');
+    let currentImageURL = null;
+
+    function updateSelectionStatus() {
+      const count = input.files.length;
+      selection.textContent = count === 0 ? 'No photos selected' : `${count} photo${count === 1 ? '' : 's'} selected`;
+    }
+
+    input.addEventListener('change', () => {
+      updateSelectionStatus();
+      status.textContent = '';
+      status.classList.remove('error');
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!contextInput.value.trim()) {
+        status.textContent = 'Describe the trip and magazine you want first.';
+        status.classList.add('error');
+        contextInput.focus();
+        return;
+      }
+      const photoCount = input.files.length;
+      if (photoCount < 2 || photoCount > 20) {
+        status.textContent = 'Please select between 2 and 20 photos.';
+        status.classList.add('error');
+        return;
+      }
+      const requestedPages = Number(pageCountInput.value) || 0;
+      const targetPhotos = Number(photosPerPageInput.value) || 4;
+      const estimatedPages = requestedPages || Math.max(1, Math.round(photoCount / targetPhotos));
+      if (estimatedPages * 2 > photoCount || estimatedPages * 6 < photoCount) {
+        status.textContent = 'That page count cannot fit all photos. Each page needs 2–6 photos.';
+        status.classList.add('error');
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = 'Creating your magazine…';
+      status.textContent = `Uploading ${photoCount} photos and organizing your layouts…`;
+      status.classList.remove('error');
+      download.hidden = true;
+
+      try {
+        const formData = new FormData();
+        for (const photo of input.files) formData.append('photos', photo);
+
+        const uploadResponse = await fetch('/upload', { method: 'POST', body: formData });
+        if (!uploadResponse.ok) throw new Error(await uploadResponse.text());
+        const { job_id: jobID } = await uploadResponse.json();
+
+        const params = new URLSearchParams({ trip_context: contextInput.value.trim() });
+        if (pageCountInput.value) params.set('page_count', pageCountInput.value);
+        if (photosPerPageInput.value) params.set('photos_per_page', photosPerPageInput.value);
+        const planResponse = await fetch(`/generate/${encodeURIComponent(jobID)}?${params.toString()}`, { method: 'POST' });
+        if (!planResponse.ok) throw new Error(await planResponse.text());
+        const planResult = await planResponse.json();
+        status.textContent = `Your ${planResult.plan.pages.length}-page layouts are ready. Generating backgrounds and the PDF…`;
+        const renderResponse = await fetch(`/render/${encodeURIComponent(jobID)}`, { method: 'POST' });
+        if (!renderResponse.ok) throw new Error(await renderResponse.text());
+        const pdfBlob = await renderResponse.blob();
+        if (pdfBlob.type !== 'application/pdf') throw new Error('The server did not return a PDF.');
+        if (currentImageURL) URL.revokeObjectURL(currentImageURL);
+        currentImageURL = URL.createObjectURL(pdfBlob);
+        preview.classList.remove('empty');
+        preview.replaceChildren(Object.assign(document.createElement('iframe'), { src: currentImageURL, title: 'TVILY magazine PDF preview' }));
+        download.href = currentImageURL;
+        download.hidden = false;
+        status.textContent = `Your ${planResult.plan.pages.length}-page magazine is ready to preview and download.`;
+      } catch (error) {
+        status.textContent = error.message.trim() || 'Something went wrong. Please try again.';
+        status.classList.add('error');
+      } finally {
+        button.disabled = false;
+        button.textContent = 'Create my magazine';
+      }
+    });
+  </script>
+</body>
+</html>

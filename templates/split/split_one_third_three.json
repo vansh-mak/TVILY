@@ -1,0 +1,11 @@
+{
+  "id": "split_one_third_three",
+  "name": "One Third + Two Panels",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "large", "role": "hero", "x": 40, "y": 40, "width": 630, "height": 1270 },
+    { "id": "small_top", "role": "supporting", "x": 710, "y": 40, "width": 330, "height": 610 },
+    { "id": "small_bottom", "role": "supporting", "x": 710, "y": 700, "width": 330, "height": 610 }
+  ]
+}

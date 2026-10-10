@@ -1,0 +1,14 @@
+{
+  "id": "grid_six_portrait",
+  "name": "Two by Three Grid",
+  "category": "grid",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 45, "y": 40, "width": 475, "height": 385 },
+    { "id": "top_right", "role": "supporting", "x": 560, "y": 40, "width": 475, "height": 385 },
+    { "id": "middle_left", "role": "supporting", "x": 45, "y": 482, "width": 475, "height": 385 },
+    { "id": "middle_right", "role": "supporting", "x": 560, "y": 482, "width": 475, "height": 385 },
+    { "id": "bottom_left", "role": "supporting", "x": 45, "y": 924, "width": 475, "height": 385 },
+    { "id": "bottom_right", "role": "supporting", "x": 560, "y": 924, "width": 475, "height": 385 }
+  ]
+}

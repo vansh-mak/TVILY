@@ -1,0 +1,12 @@
+{
+  "id": "split_quadrants_four",
+  "name": "Four Section Split",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 40, "y": 40, "width": 480, "height": 610 },
+    { "id": "top_right", "role": "supporting", "x": 560, "y": 40, "width": 480, "height": 610 },
+    { "id": "bottom_left", "role": "supporting", "x": 40, "y": 700, "width": 480, "height": 610 },
+    { "id": "bottom_right", "role": "supporting", "x": 560, "y": 700, "width": 480, "height": 610 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "editorial_z_five",
+  "name": "Z Flow Editorial Five",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "top_left", "role": "hero", "x": 45, "y": 45, "width": 570, "height": 390 },
+    { "id": "top_right", "role": "supporting", "x": 665, "y": 45, "width": 370, "height": 300 },
+    { "id": "middle", "role": "supporting", "x": 330, "y": 485, "width": 420, "height": 330 },
+    { "id": "bottom_left", "role": "supporting", "x": 45, "y": 875, "width": 370, "height": 300 },
+    { "id": "bottom_right", "role": "supporting", "x": 465, "y": 920, "width": 570, "height": 380 }
+  ]
+}

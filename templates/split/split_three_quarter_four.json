@@ -1,0 +1,12 @@
+{
+  "id": "split_three_quarter_four",
+  "name": "Three Quarters + Three Strip",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "large", "role": "hero", "x": 40, "y": 40, "width": 740, "height": 1270 },
+    { "id": "strip_top", "role": "supporting", "x": 820, "y": 40, "width": 220, "height": 380 },
+    { "id": "strip_middle", "role": "supporting", "x": 820, "y": 485, "width": 220, "height": 380 },
+    { "id": "strip_bottom", "role": "supporting", "x": 820, "y": 930, "width": 220, "height": 380 }
+  ]
+}

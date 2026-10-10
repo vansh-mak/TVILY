@@ -1,0 +1,11 @@
+{
+  "id": "grid_three",
+  "name": "Three Column Grid",
+  "category": "grid",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "left", "role": "supporting", "x": 40, "y": 50, "width": 310, "height": 1250 },
+    { "id": "center", "role": "supporting", "x": 385, "y": 50, "width": 310, "height": 1250 },
+    { "id": "right", "role": "supporting", "x": 730, "y": 50, "width": 310, "height": 1250 }
+  ]
+}

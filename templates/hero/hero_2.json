@@ -1,0 +1,36 @@
+{
+  "id": "hero_2",
+  "name": "Hero + Two",
+  "category": "editorial",
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "slots": [
+    {
+      "id": "hero",
+      "role": "hero",
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 850
+    },
+    {
+      "id": "supporting_1",
+      "role": "supporting",
+      "x": 0,
+      "y": 850,
+      "width": 540,
+      "height": 500
+    },
+    {
+      "id": "supporting_2",
+      "role": "supporting",
+      "x": 540,
+      "y": 850,
+      "width": 540,
+      "height": 500
+    }
+  ],
+  "text_areas": []
+}

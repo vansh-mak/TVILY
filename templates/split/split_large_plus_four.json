@@ -1,0 +1,13 @@
+{
+  "id": "split_large_plus_four",
+  "name": "Large Section + Four",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "large", "role": "hero", "x": 40, "y": 40, "width": 590, "height": 1270 },
+    { "id": "small_1", "role": "supporting", "x": 670, "y": 40, "width": 370, "height": 280 },
+    { "id": "small_2", "role": "supporting", "x": 670, "y": 380, "width": 370, "height": 280 },
+    { "id": "small_3", "role": "supporting", "x": 670, "y": 720, "width": 370, "height": 280 },
+    { "id": "small_4", "role": "supporting", "x": 670, "y": 1060, "width": 370, "height": 250 }
+  ]
+}

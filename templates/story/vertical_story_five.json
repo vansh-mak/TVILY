@@ -1,0 +1,13 @@
+{
+  "id": "vertical_story_five",
+  "name": "Vertical Story Five",
+  "category": "story",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 45, "y": 45, "width": 475, "height": 340 },
+    { "id": "top_right", "role": "supporting", "x": 560, "y": 45, "width": 475, "height": 340 },
+    { "id": "hero", "role": "hero", "x": 45, "y": 425, "width": 990, "height": 420 },
+    { "id": "bottom_left", "role": "supporting", "x": 45, "y": 885, "width": 475, "height": 420 },
+    { "id": "bottom_right", "role": "supporting", "x": 560, "y": 885, "width": 475, "height": 420 }
+  ]
+}

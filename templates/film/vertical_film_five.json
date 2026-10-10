@@ -1,0 +1,13 @@
+{
+  "id": "vertical_film_five",
+  "name": "Vertical Film Strip Five",
+  "category": "film",
+  "canvas": { "width": 1080, "height": 1350, "background": "#252624" },
+  "slots": [
+    { "id": "frame_1", "role": "supporting", "x": 65, "y": 55, "width": 950, "height": 215 },
+    { "id": "frame_2", "role": "supporting", "x": 65, "y": 315, "width": 950, "height": 215 },
+    { "id": "frame_3", "role": "supporting", "x": 65, "y": 575, "width": 950, "height": 215 },
+    { "id": "frame_4", "role": "supporting", "x": 65, "y": 835, "width": 950, "height": 215 },
+    { "id": "frame_5", "role": "supporting", "x": 65, "y": 1095, "width": 950, "height": 200 }
+  ]
+}

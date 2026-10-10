@@ -1,0 +1,14 @@
+{
+  "id": "split_alternating_six",
+  "name": "Alternating Sections Six",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 40, "y": 40, "width": 310, "height": 360 },
+    { "id": "top_center", "role": "supporting", "x": 385, "y": 40, "width": 310, "height": 360 },
+    { "id": "top_right", "role": "supporting", "x": 730, "y": 40, "width": 310, "height": 360 },
+    { "id": "middle", "role": "hero", "x": 40, "y": 440, "width": 1000, "height": 360 },
+    { "id": "bottom_left", "role": "supporting", "x": 40, "y": 840, "width": 480, "height": 470 },
+    { "id": "bottom_right", "role": "supporting", "x": 560, "y": 840, "width": 480, "height": 470 }
+  ]
+}

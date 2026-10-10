@@ -1,0 +1,12 @@
+{
+  "id": "hero_right_four",
+  "name": "Right Hero + Three",
+  "category": "hero",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "support_top", "role": "supporting", "x": 55, "y": 65, "width": 475, "height": 365 },
+    { "id": "support_middle", "role": "supporting", "x": 55, "y": 493, "width": 475, "height": 365 },
+    { "id": "support_bottom", "role": "supporting", "x": 55, "y": 920, "width": 475, "height": 365 },
+    { "id": "hero", "role": "hero", "x": 590, "y": 65, "width": 435, "height": 1220 }
+  ]
+}

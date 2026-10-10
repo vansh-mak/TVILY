@@ -1,0 +1,15 @@
+{
+  "id": "collage_six",
+  "name": "Collage Six",
+  "category": "collage",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EAE6DE" },
+  "slots": [
+    { "id": "back_left", "role": "hero", "x": 85, "y": 50, "width": 390, "height": 510, "rotation": -6 },
+    { "id": "back_center", "role": "supporting", "x": 420, "y": 35, "width": 430, "height": 460, "rotation": 5 },
+    { "id": "back_right", "role": "supporting", "x": 650, "y": 290, "width": 360, "height": 500, "rotation": -4 },
+    { "id": "front_left", "role": "supporting", "x": 40, "y": 510, "width": 400, "height": 500, "rotation": 4 },
+    { "id": "front_center", "role": "supporting", "x": 365, "y": 480, "width": 420, "height": 500, "rotation": -5 },
+    { "id": "front_right", "role": "supporting", "x": 620, "y": 760, "width": 420, "height": 500, "rotation": 3 }
+  ],
+  "text_areas": []
+}

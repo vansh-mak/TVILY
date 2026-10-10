@@ -1,0 +1,13 @@
+{
+  "id": "scrapbook_five",
+  "name": "Scrapbook Five",
+  "category": "scrapbook",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EAE6DE" },
+  "slots": [
+    { "id": "back_left", "role": "supporting", "x": 55, "y": 100, "width": 430, "height": 420, "rotation": -6 },
+    { "id": "back_right", "role": "supporting", "x": 565, "y": 70, "width": 440, "height": 460, "rotation": 5 },
+    { "id": "center", "role": "hero", "x": 270, "y": 390, "width": 540, "height": 520, "rotation": -2 },
+    { "id": "front_left", "role": "supporting", "x": 70, "y": 830, "width": 430, "height": 420, "rotation": 4 },
+    { "id": "front_right", "role": "supporting", "x": 575, "y": 835, "width": 440, "height": 420, "rotation": -5 }
+  ]
+}

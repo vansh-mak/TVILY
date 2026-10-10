@@ -1,0 +1,52 @@
+{
+  "id": "film_strip",
+  "name": "Film Strip",
+  "category": "editorial",
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "slots": [
+    {
+      "id": "photo_1",
+      "role": "supporting",
+      "x": 60,
+      "y": 100,
+      "width": 960,
+      "height": 220
+    },
+    {
+      "id": "photo_2",
+      "role": "supporting",
+      "x": 60,
+      "y": 340,
+      "width": 960,
+      "height": 220
+    },
+    {
+      "id": "photo_3",
+      "role": "supporting",
+      "x": 60,
+      "y": 580,
+      "width": 960,
+      "height": 220
+    },
+    {
+      "id": "photo_4",
+      "role": "supporting",
+      "x": 60,
+      "y": 820,
+      "width": 960,
+      "height": 220
+    },
+    {
+      "id": "photo_5",
+      "role": "supporting",
+      "x": 60,
+      "y": 1060,
+      "width": 960,
+      "height": 220
+    }
+  ],
+  "text_areas": []
+}

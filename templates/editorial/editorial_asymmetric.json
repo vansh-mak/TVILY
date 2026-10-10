@@ -1,0 +1,52 @@
+{
+  "id": "editorial_asymmetric",
+  "name": "Editorial Asymmetric",
+  "category": "editorial",
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "slots": [
+    {
+      "id": "main",
+      "role": "hero",
+      "x": 0,
+      "y": 0,
+      "width": 700,
+      "height": 900
+    },
+    {
+      "id": "top_right",
+      "role": "supporting",
+      "x": 700,
+      "y": 0,
+      "width": 380,
+      "height": 450
+    },
+    {
+      "id": "bottom_right",
+      "role": "supporting",
+      "x": 700,
+      "y": 450,
+      "width": 380,
+      "height": 450
+    },
+    {
+      "id": "bottom_left",
+      "role": "supporting",
+      "x": 0,
+      "y": 900,
+      "width": 540,
+      "height": 450
+    },
+    {
+      "id": "bottom_center",
+      "role": "supporting",
+      "x": 540,
+      "y": 900,
+      "width": 540,
+      "height": 450
+    }
+  ],
+  "text_areas": []
+}

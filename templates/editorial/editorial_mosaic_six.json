@@ -1,0 +1,14 @@
+{
+  "id": "editorial_mosaic_six",
+  "name": "Asymmetric Editorial Mosaic Six",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "hero", "role": "hero", "x": 40, "y": 40, "width": 640, "height": 730 },
+    { "id": "top_right", "role": "supporting", "x": 720, "y": 40, "width": 320, "height": 340 },
+    { "id": "middle_right", "role": "supporting", "x": 720, "y": 420, "width": 320, "height": 350 },
+    { "id": "bottom_left", "role": "supporting", "x": 40, "y": 810, "width": 300, "height": 490 },
+    { "id": "bottom_center", "role": "supporting", "x": 380, "y": 810, "width": 400, "height": 330 },
+    { "id": "bottom_right", "role": "supporting", "x": 820, "y": 810, "width": 220, "height": 490 }
+  ]
+}

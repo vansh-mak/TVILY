@@ -1,0 +1,13 @@
+{
+  "id": "editorial_staircase_five",
+  "name": "Editorial Staircase Five",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "step_1", "role": "supporting", "x": 45, "y": 45, "width": 360, "height": 270 },
+    { "id": "step_2", "role": "supporting", "x": 235, "y": 300, "width": 420, "height": 330 },
+    { "id": "step_3", "role": "hero", "x": 430, "y": 580, "width": 470, "height": 390 },
+    { "id": "step_4", "role": "supporting", "x": 590, "y": 850, "width": 440, "height": 300 },
+    { "id": "step_5", "role": "supporting", "x": 710, "y": 1080, "width": 320, "height": 225 }
+  ]
+}

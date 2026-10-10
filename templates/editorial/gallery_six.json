@@ -1,0 +1,15 @@
+{
+  "id": "gallery_six",
+  "name": "Gallery Six",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350 },
+  "slots": [
+    { "id": "hero", "role": "hero", "x": 40, "y": 40, "width": 620, "height": 790 },
+    { "id": "top_right", "role": "supporting", "x": 680, "y": 40, "width": 360, "height": 385 },
+    { "id": "bottom_right", "role": "supporting", "x": 680, "y": 445, "width": 360, "height": 385 },
+    { "id": "bottom_left", "role": "supporting", "x": 40, "y": 850, "width": 320, "height": 460 },
+    { "id": "bottom_center", "role": "supporting", "x": 380, "y": 850, "width": 320, "height": 460 },
+    { "id": "bottom_right_small", "role": "supporting", "x": 720, "y": 850, "width": 320, "height": 460 }
+  ],
+  "text_areas": []
+}

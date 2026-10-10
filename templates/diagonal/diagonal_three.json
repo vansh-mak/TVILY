@@ -1,0 +1,11 @@
+{
+  "id": "diagonal_three",
+  "name": "Diagonal Three",
+  "category": "diagonal",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EAE6DE" },
+  "slots": [
+    { "id": "top", "role": "supporting", "x": 50, "y": 45, "width": 440, "height": 470, "rotation": -4 },
+    { "id": "middle", "role": "hero", "x": 315, "y": 430, "width": 470, "height": 490, "rotation": 3 },
+    { "id": "bottom", "role": "supporting", "x": 590, "y": 835, "width": 440, "height": 465, "rotation": -3 }
+  ]
+}

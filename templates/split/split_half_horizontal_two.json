@@ -1,0 +1,10 @@
+{
+  "id": "split_half_horizontal_two",
+  "name": "Horizontal Half Split Two",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "top", "role": "hero", "x": 0, "y": 0, "width": 1080, "height": 650 },
+    { "id": "bottom", "role": "supporting", "x": 0, "y": 700, "width": 1080, "height": 650 }
+  ]
+}

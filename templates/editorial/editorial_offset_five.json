@@ -1,0 +1,13 @@
+{
+  "id": "editorial_offset_five",
+  "name": "Offset Editorial Five",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "hero", "role": "hero", "x": 70, "y": 55, "width": 570, "height": 610 },
+    { "id": "top_right", "role": "supporting", "x": 700, "y": 105, "width": 330, "height": 330 },
+    { "id": "middle_right", "role": "supporting", "x": 670, "y": 490, "width": 360, "height": 300 },
+    { "id": "bottom_left", "role": "supporting", "x": 90, "y": 750, "width": 390, "height": 540 },
+    { "id": "bottom_right", "role": "supporting", "x": 540, "y": 850, "width": 490, "height": 440 }
+  ]
+}

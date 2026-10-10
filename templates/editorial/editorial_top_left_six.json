@@ -1,0 +1,14 @@
+{
+  "id": "editorial_top_left_six",
+  "name": "Top Left Hero Surround Six",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "hero", "role": "hero", "x": 40, "y": 40, "width": 630, "height": 650 },
+    { "id": "top_right", "role": "supporting", "x": 720, "y": 40, "width": 320, "height": 290 },
+    { "id": "middle_right", "role": "supporting", "x": 720, "y": 370, "width": 320, "height": 320 },
+    { "id": "bottom_left", "role": "supporting", "x": 40, "y": 750, "width": 300, "height": 550 },
+    { "id": "bottom_center", "role": "supporting", "x": 380, "y": 750, "width": 300, "height": 470 },
+    { "id": "bottom_right", "role": "supporting", "x": 720, "y": 750, "width": 320, "height": 550 }
+  ]
+}

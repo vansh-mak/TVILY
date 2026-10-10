@@ -1,0 +1,12 @@
+{
+  "id": "editorial_reverse_l_four",
+  "name": "Reverse L Shape Four",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 45, "y": 45, "width": 320, "height": 360 },
+    { "id": "top_right", "role": "hero", "x": 415, "y": 45, "width": 620, "height": 800 },
+    { "id": "bottom_center", "role": "supporting", "x": 415, "y": 895, "width": 620, "height": 390 },
+    { "id": "bottom_right", "role": "supporting", "x": 45, "y": 455, "width": 320, "height": 430 }
+  ]
+}

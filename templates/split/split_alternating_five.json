@@ -1,0 +1,13 @@
+{
+  "id": "split_alternating_five",
+  "name": "Alternating Sections Five",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "section_1", "role": "supporting", "x": 40, "y": 35, "width": 690, "height": 220 },
+    { "id": "section_2", "role": "supporting", "x": 350, "y": 300, "width": 690, "height": 220 },
+    { "id": "section_3", "role": "hero", "x": 40, "y": 565, "width": 690, "height": 220 },
+    { "id": "section_4", "role": "supporting", "x": 350, "y": 830, "width": 690, "height": 220 },
+    { "id": "section_5", "role": "supporting", "x": 40, "y": 1095, "width": 690, "height": 220 }
+  ]
+}

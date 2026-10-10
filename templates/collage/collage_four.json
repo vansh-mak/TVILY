@@ -1,0 +1,13 @@
+{
+  "id": "collage_four",
+  "name": "Collage Four",
+  "category": "collage",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EAE6DE" },
+  "slots": [
+    { "id": "back_left", "role": "hero", "x": 90, "y": 70, "width": 440, "height": 600, "rotation": -7 },
+    { "id": "back_right", "role": "supporting", "x": 500, "y": 50, "width": 460, "height": 540, "rotation": 6 },
+    { "id": "front_left", "role": "supporting", "x": 80, "y": 600, "width": 470, "height": 620, "rotation": 0 },
+    { "id": "front_right", "role": "supporting", "x": 500, "y": 570, "width": 480, "height": 650, "rotation": -4 }
+  ],
+  "text_areas": []
+}

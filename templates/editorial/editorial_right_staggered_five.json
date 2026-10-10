@@ -1,0 +1,13 @@
+{
+  "id": "editorial_right_staggered_five",
+  "name": "Right Hero Staggered Five",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "support_1", "role": "supporting", "x": 40, "y": 45, "width": 500, "height": 250 },
+    { "id": "support_2", "role": "supporting", "x": 100, "y": 345, "width": 430, "height": 260 },
+    { "id": "support_3", "role": "supporting", "x": 45, "y": 655, "width": 485, "height": 260 },
+    { "id": "support_4", "role": "supporting", "x": 100, "y": 965, "width": 430, "height": 330 },
+    { "id": "hero", "role": "hero", "x": 590, "y": 50, "width": 450, "height": 1245 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "hero_left_five",
+  "name": "Left Hero + Four Stack",
+  "category": "hero",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "hero", "role": "hero", "x": 40, "y": 40, "width": 590, "height": 1270 },
+    { "id": "support_1", "role": "supporting", "x": 670, "y": 40, "width": 370, "height": 280 },
+    { "id": "support_2", "role": "supporting", "x": 670, "y": 380, "width": 370, "height": 280 },
+    { "id": "support_3", "role": "supporting", "x": 670, "y": 720, "width": 370, "height": 280 },
+    { "id": "support_4", "role": "supporting", "x": 670, "y": 1060, "width": 370, "height": 250 }
+  ]
+}

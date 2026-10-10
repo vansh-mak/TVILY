@@ -1,0 +1,14 @@
+{
+  "id": "grid_six_landscape",
+  "name": "Three by Two Grid",
+  "category": "grid",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "top_left", "role": "supporting", "x": 40, "y": 50, "width": 310, "height": 585 },
+    { "id": "top_center", "role": "supporting", "x": 385, "y": 50, "width": 310, "height": 585 },
+    { "id": "top_right", "role": "supporting", "x": 730, "y": 50, "width": 310, "height": 585 },
+    { "id": "bottom_left", "role": "supporting", "x": 40, "y": 715, "width": 310, "height": 585 },
+    { "id": "bottom_center", "role": "supporting", "x": 385, "y": 715, "width": 310, "height": 585 },
+    { "id": "bottom_right", "role": "supporting", "x": 730, "y": 715, "width": 310, "height": 585 }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "split_half_vertical_two",
+  "name": "Vertical Half Split Two",
+  "category": "split",
+  "canvas": { "width": 1080, "height": 1350, "background": "#F4F0E8" },
+  "slots": [
+    { "id": "left", "role": "supporting", "x": 0, "y": 0, "width": 520, "height": 1350 },
+    { "id": "right", "role": "supporting", "x": 560, "y": 0, "width": 520, "height": 1350 }
+  ]
+}

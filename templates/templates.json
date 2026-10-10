@@ -1,0 +1,204 @@
+{
+  "templates": [
+    {
+      "id": "hero_2",
+      "name": "Hero + Two",
+      "path": "templates/hero/hero_2.json"
+    },
+    {
+      "id": "editorial_asymmetric",
+      "name": "Editorial Asymmetric",
+      "path": "templates/editorial/editorial_asymmetric.json"
+    },
+    {
+      "id": "film_strip",
+      "name": "Film Strip",
+      "path": "templates/film/film_strip.json"
+    },
+    {
+      "id": "feature_four",
+      "name": "Feature Four",
+      "path": "templates/editorial/feature_four.json"
+    },
+    {
+      "id": "gallery_six",
+      "name": "Gallery Six",
+      "path": "templates/editorial/gallery_six.json"
+    },
+    {
+      "id": "collage_four",
+      "name": "Collage Four",
+      "path": "templates/collage/collage_four.json"
+    },
+    {
+      "id": "collage_six",
+      "name": "Collage Six",
+      "path": "templates/collage/collage_six.json"
+    },
+    {
+      "id": "grid_three",
+      "name": "Three Column Grid",
+      "path": "templates/grid/grid_three.json"
+    },
+    {
+      "id": "grid_four",
+      "name": "Balanced Grid Four",
+      "path": "templates/grid/grid_four.json"
+    },
+    {
+      "id": "grid_six_landscape",
+      "name": "Three by Two Grid",
+      "path": "templates/grid/grid_six_landscape.json"
+    },
+    {
+      "id": "grid_six_portrait",
+      "name": "Two by Three Grid",
+      "path": "templates/grid/grid_six_portrait.json"
+    },
+    {
+      "id": "hero_right_four",
+      "name": "Right Hero + Three",
+      "path": "templates/hero/hero_right_four.json"
+    },
+    {
+      "id": "hero_top_five",
+      "name": "Top Hero + Four Grid",
+      "path": "templates/hero/hero_top_five.json"
+    },
+    {
+      "id": "vertical_story_five",
+      "name": "Vertical Story Five",
+      "path": "templates/story/vertical_story_five.json"
+    },
+    {
+      "id": "vertical_film_five",
+      "name": "Vertical Film Strip Five",
+      "path": "templates/film/vertical_film_five.json"
+    },
+    {
+      "id": "diagonal_three",
+      "name": "Diagonal Three",
+      "path": "templates/diagonal/diagonal_three.json"
+    },
+    {
+      "id": "centerpiece_six",
+      "name": "Centerpiece Six",
+      "path": "templates/centerpiece/centerpiece_six.json"
+    },
+    {
+      "id": "scrapbook_five",
+      "name": "Scrapbook Five",
+      "path": "templates/scrapbook/scrapbook_five.json"
+    },
+    {
+      "id": "hero_left_five",
+      "name": "Left Hero + Four Stack",
+      "path": "templates/hero/hero_left_five.json"
+    },
+    {
+      "id": "hero_bottom_five",
+      "name": "Bottom Hero + Four Grid",
+      "path": "templates/hero/hero_bottom_five.json"
+    },
+    {
+      "id": "hero_vertical_strip_six",
+      "name": "Hero + Five Photo Strip",
+      "path": "templates/hero/hero_vertical_strip_six.json"
+    },
+    {
+      "id": "hero_top_six_grid",
+      "name": "Top Hero + Five Grid",
+      "path": "templates/hero/hero_top_six_grid.json"
+    },
+    {
+      "id": "editorial_right_staggered_five",
+      "name": "Right Hero Staggered Five",
+      "path": "templates/editorial/editorial_right_staggered_five.json"
+    },
+    {
+      "id": "editorial_top_left_six",
+      "name": "Top Left Hero Surround Six",
+      "path": "templates/editorial/editorial_top_left_six.json"
+    },
+    {
+      "id": "editorial_bottom_right_six",
+      "name": "Bottom Right Hero Surround Six",
+      "path": "templates/editorial/editorial_bottom_right_six.json"
+    },
+    {
+      "id": "editorial_offset_five",
+      "name": "Offset Editorial Five",
+      "path": "templates/editorial/editorial_offset_five.json"
+    },
+    {
+      "id": "editorial_l_four",
+      "name": "L Shape Four",
+      "path": "templates/editorial/editorial_l_four.json"
+    },
+    {
+      "id": "editorial_reverse_l_four",
+      "name": "Reverse L Shape Four",
+      "path": "templates/editorial/editorial_reverse_l_four.json"
+    },
+    {
+      "id": "editorial_staircase_five",
+      "name": "Editorial Staircase Five",
+      "path": "templates/editorial/editorial_staircase_five.json"
+    },
+    {
+      "id": "editorial_z_five",
+      "name": "Z Flow Editorial Five",
+      "path": "templates/editorial/editorial_z_five.json"
+    },
+    {
+      "id": "editorial_s_six",
+      "name": "S Flow Editorial Six",
+      "path": "templates/editorial/editorial_s_six.json"
+    },
+    {
+      "id": "editorial_mosaic_six",
+      "name": "Asymmetric Editorial Mosaic Six",
+      "path": "templates/editorial/editorial_mosaic_six.json"
+    },
+    {
+      "id": "split_half_vertical_two",
+      "name": "Vertical Half Split Two",
+      "path": "templates/split/split_half_vertical_two.json"
+    },
+    {
+      "id": "split_half_horizontal_two",
+      "name": "Horizontal Half Split Two",
+      "path": "templates/split/split_half_horizontal_two.json"
+    },
+    {
+      "id": "split_one_third_three",
+      "name": "One Third + Two Panels",
+      "path": "templates/split/split_one_third_three.json"
+    },
+    {
+      "id": "split_three_quarter_four",
+      "name": "Three Quarters + Three Strip",
+      "path": "templates/split/split_three_quarter_four.json"
+    },
+    {
+      "id": "split_quadrants_four",
+      "name": "Four Section Split",
+      "path": "templates/split/split_quadrants_four.json"
+    },
+    {
+      "id": "split_large_plus_four",
+      "name": "Large Section + Four",
+      "path": "templates/split/split_large_plus_four.json"
+    },
+    {
+      "id": "split_alternating_five",
+      "name": "Alternating Sections Five",
+      "path": "templates/split/split_alternating_five.json"
+    },
+    {
+      "id": "split_alternating_six",
+      "name": "Alternating Sections Six",
+      "path": "templates/split/split_alternating_six.json"
+    }
+  ]
+}

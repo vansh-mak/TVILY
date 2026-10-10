@@ -1,0 +1,13 @@
+{
+  "id": "feature_four",
+  "name": "Feature Four",
+  "category": "editorial",
+  "canvas": { "width": 1080, "height": 1350 },
+  "slots": [
+    { "id": "main", "role": "hero", "x": 40, "y": 40, "width": 630, "height": 850 },
+    { "id": "top_right", "role": "supporting", "x": 690, "y": 40, "width": 350, "height": 410 },
+    { "id": "middle_right", "role": "supporting", "x": 690, "y": 470, "width": 350, "height": 420 },
+    { "id": "bottom_wide", "role": "supporting", "x": 40, "y": 1010, "width": 1000, "height": 300 }
+  ],
+  "text_areas": []
+}

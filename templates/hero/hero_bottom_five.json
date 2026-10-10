@@ -1,0 +1,13 @@
+{
+  "id": "hero_bottom_five",
+  "name": "Bottom Hero + Four Grid",
+  "category": "hero",
+  "canvas": { "width": 1080, "height": 1350, "background": "#EEE9DF" },
+  "slots": [
+    { "id": "support_top_left", "role": "supporting", "x": 40, "y": 40, "width": 480, "height": 280 },
+    { "id": "support_top_right", "role": "supporting", "x": 560, "y": 40, "width": 480, "height": 280 },
+    { "id": "support_bottom_left", "role": "supporting", "x": 40, "y": 360, "width": 480, "height": 280 },
+    { "id": "support_bottom_right", "role": "supporting", "x": 560, "y": 360, "width": 480, "height": 280 },
+    { "id": "hero", "role": "hero", "x": 40, "y": 680, "width": 1000, "height": 630 }
+  ]
+}
